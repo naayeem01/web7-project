@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h3>This is fast html Form </h3>
+    <form >
+        <label for="name" > Your Name :
+            <input id="name" type="text" placeholder="Enter Your Name"> 
+        </label>
+
+        <label for="email" > Your Email :
+            <input id="email" type="email" placeholder="Enter Your Email"> 
+        </label>
+       
+        <fieldset>
+            <legend>Pick one Option</legend>
+            <label for="News Website ">
+                <input type="radio" name="website" id="News Website">
+                News Website
+            </label>
+
+            <label for="Blog Website ">
+                <input type="radio" name="website" id="Blog Website">
+                Blog Website
+            </label>
+            <label for="E-commerce Website ">
+                <input type="radio" name="website" id="E-commerce Website">
+                E-commerce Website
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select One or More Addons</legend>
+            <label for="Domain">
+                <input type="checkbox" name="addons" id="domain">
+                A Domain
+            </label>
+            <label for="Hosting">
+                <input type="checkbox" name="addons" id="hosting">
+                Hosting
+            </label>
+            <label for="services">
+                <input type="checkbox" name="addons" id="services">
+                1 Month services
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Your Spacial Instraction</legend>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input id="reset" type="reset" value="Reset">
+       
+    </form>
+    
+</body>
+</html>

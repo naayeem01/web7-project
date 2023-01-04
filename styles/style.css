@@ -1,0 +1,63 @@
+/* nav menu  */
+
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 5px;
+}
+nav li a {
+    text-decoration: none;
+    color: red;
+}
+
+nav li:hover {
+background-color: lightcoral;
+
+}
+
+/* index page */
+#id{
+    shadow: 10px 10px 10px;
+}
+    p.dd {
+
+        text-align: center;
+        border: 5px solid;
+    }
+    .blog {
+        background-color: rgb(37, 252, 181);
+        border: 5px solid red;
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center;
+        text-shadow: 10%;
+        padding: 30px;
+    }
+
+    /* form Page css */
+
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #reset{
+        margin-top: 10px;
+    }
+
+    /* form css */
+
+    table {
+        border-collapse: collapse;
+    }
+    td ,th  {
+        border: 1px solid lightslategray;
+        border-collapse: collapse;
+        padding: 5px 15px;
+    }
+
+    /* Table page  */
+
+    
